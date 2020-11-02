@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t address-book:0.1 .[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /home/ayana/Desktop/university/backend/AddressBook/target/docker/stage[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  39.16MB[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 1/6 : FROM openjdk:8-jre-alpine[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> f7a292bbb70c[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 2/6 : WORKDIR /opt/docker[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> b129afba343d[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 3/6 : ADD --chown=daemon:daemon opt /opt[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> df5f35dbea82[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 4/6 : USER daemon[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 6f2d70e006f6[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 5/6 : ENTRYPOINT ["/opt/docker/bin/address-book"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> d7925e920a30[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 6/6 : CMD ["/opt/docker/bin/address-book"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 8e97948ec120[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 8e97948ec120[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged address-book:0.1[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mBuilt image address-book with tags [0.1][0m[0J

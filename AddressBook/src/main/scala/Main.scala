@@ -22,11 +22,11 @@ object HttpServerSample {
       val todoRepository = new InMemoryAddressBookRepository(todos)(context.executionContext)
       val router = new MyRouter(todoRepository)(context.system, context.executionContext)
       val host = "0.0.0.0"
-      val port = Try(System.getenv("PORT")).map(_.toInt).getOrElse(8080)
+      val port = Try(System.getenv("PORT")).map(_.toInt).getOrElse(9000)
 
-      Server.startHttpServer(router.route, "localhost", port)(context.system, context.executionContext)
+      Server.startHttpServer(router.route, host, port)(context.system, context.executionContext)
       Behaviors.empty
     }
-    val system = ActorSystem[Nothing](rootBehavior, "HelloAkkaHttpServer")
+    val system = ActorSystem[Nothing](rootBehavior, "AddressBook")
   }
 }

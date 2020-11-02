@@ -1,4 +1,12 @@
-name := "akka-http-sample"
+import com.typesafe.sbt.packager.docker.ExecCmd
+
+enablePlugins(JavaAppPackaging, AshScriptPlugin)
+
+dockerBaseImage := "openjdk:8-jre-alpine"
+packageName in Docker := "address-book"
+
+
+name := "address-book"
 
 version := "0.1"
 
@@ -21,3 +29,10 @@ libraryDependencies ++= Seq(
   "de.heikoseeberger" %% "akka-http-circe" % "1.31.0"
 
 )
+
+dockerCommands := dockerCommands.value.map {
+  case ExecCmd("CMD", _ @ _*) =>
+    ExecCmd("CMD", "/opt/docker/bin/address-book")
+  case other =>
+    other
+}

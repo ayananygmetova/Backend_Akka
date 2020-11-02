@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-http-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-http-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-http-sample-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-http-sample-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AddressBook.iml" filepath="$PROJECT_DIR$/.idea/modules/AddressBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AddressBook-build.iml" filepath="$PROJECT_DIR$/.idea/modules/AddressBook-build.iml" />
     </modules>
   </component>
 </project>

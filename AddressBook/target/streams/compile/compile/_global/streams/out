@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/ayana/Desktop/university/backend/AddressBook/src/main/scala/AddressBookDirectives.scala:13:69: match may not be exhaustive.[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure(_)[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0m  (e: Throwable => ApiError): Directive1[T] = onComplete(f) flatMap {[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m[0J
