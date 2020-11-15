@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""/tmp/idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""/tmp/idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 15)
+[debug]       Load.loadUnit: plugins took 228.900459ms
+[debug]       Load.loadUnit: defsScala took 0.381089ms
+[debug] [Loading] Scanning directory /home/ayana/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ayana/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 107.413086 ms
+[debug]           Load.resolveProject(global-plugins) took 650.643327ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/ayana/.sbt/1.0/plugins, plugins: List(<none>))) took 815.785026ms
+[debug] [Loading] Done in /home/ayana/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 888.103926ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.565418ms
+[debug]     Load.loadUnit(file:/home/ayana/.sbt/1.0/plugins/, ...) took 1142.067773ms
+[debug]   Load.apply: load took 1914.055763ms
+[debug]   Load.apply: resolveProjects took 7.15459ms
+[debug]   Load.apply: finalTransforms took 81.657795ms
+[debug]   Load.apply: config.delegates took 7.810217ms
+[debug]   Load.apply: Def.make(settings)... took 821.884137ms
+[debug]   Load.apply: structureIndex took 109.140169ms
+[debug]   Load.apply: mkStreams took 1.854003ms
+[info] loading global plugins from /home/ayana/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 10584.072822ms
+[debug]           Load.loadUnit: plugins took 21.309767ms
+[debug]           Load.loadUnit: defsScala took 0.008519ms
+[debug] [Loading] Scanning directory /home/ayana/Desktop/university/backend/Kafka/project
+[debug]             Load.loadUnit: mkEval took 7.172996ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ayana/Desktop/university/backend/Kafka/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.901169 ms
+[info] loading settings for project kafka-build from idea.sbt ...
+[debug]               Load.resolveProject(kafka-build) took 3.758123ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id kafka-build, base: /home/ayana/Desktop/university/backend/Kafka/project, plugins: List(<none>))) took 7.553171ms
+[debug] [Loading] Done in /home/ayana/Desktop/university/backend/Kafka/project, returning: (kafka-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 221.80127ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.188194ms
+[debug]         Load.loadUnit(file:/home/ayana/Desktop/university/backend/Kafka/project/, ...) took 248.405732ms
+[debug]       Load.apply: load took 250.285069ms
+[debug]       Load.apply: resolveProjects took 0.134117ms
+[debug]       Load.apply: finalTransforms took 18.122381ms
+[debug]       Load.apply: config.delegates took 0.461593ms
+[debug]       Load.apply: Def.make(settings)... took 132.057875ms
+[debug]       Load.apply: structureIndex took 37.478268ms
+[debug]       Load.apply: mkStreams took 0.003129ms
+[info] loading project definition from /home/ayana/Desktop/university/backend/Kafka/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1429.579824ms
+[debug]     Load.loadUnit: defsScala took 0.00657ms
+[debug] [Loading] Scanning directory /home/ayana/Desktop/university/backend/Kafka
+[debug]       Load.loadUnit: mkEval took 0.231432ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ayana/Desktop/university/backend/Kafka, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.074845 ms
+[info] loading settings for project kafka from build.sbt ...
+[debug]         Load.resolveProject(kafka) took 35.318392ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id kafka, base: /home/ayana/Desktop/university/backend/Kafka, plugins: List(<none>))) took 39.835866ms
+[debug] [Loading] Done in /home/ayana/Desktop/university/backend/Kafka, returning: (kafka)
+[debug]     Load.loadUnit: loadedProjectsRaw took 639.202913ms
+[debug]     Load.loadUnit: cleanEvalClasses took 90.060303ms
+[debug]   Load.loadUnit(file:/home/ayana/Desktop/university/backend/Kafka/, ...) took 2160.118994ms
+[debug] Load.apply: load took 2163.979454ms
+[debug] Load.apply: resolveProjects took 0.525782ms
+[debug] Load.apply: finalTransforms took 41.181773ms
+[debug] Load.apply: config.delegates took 0.346741ms
+[debug] Load.apply: Def.make(settings)... took 111.542444ms
+[debug] Load.apply: structureIndex took 28.565356ms
+[debug] Load.apply: mkStreams took 0.001976ms
+[info] set current project to Kafka (in build file:/home/ayana/Desktop/university/backend/Kafka/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 35299 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 35299, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Kafka (in build file:/home/ayana/Desktop/university/backend/Kafka/)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,9 @@
+[debug] Packaging /home/ayana/Desktop/university/backend/Kafka/target/scala-2.13/kafka_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Main$.class
+[debug] 	  /home/ayana/Desktop/university/backend/Kafka/target/scala-2.13/classes/Main$.class
+[debug] 	Main.class
+[debug] 	  /home/ayana/Desktop/university/backend/Kafka/target/scala-2.13/classes/Main.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  /home/ayana/Desktop/university/backend/Kafka/target/scala-2.13/classes/Main$delayedInit$body.class
+[debug] Done packaging.
