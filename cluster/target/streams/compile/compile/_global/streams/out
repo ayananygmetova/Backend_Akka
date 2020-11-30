@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/ayana/Documents/cluster/src/main/scala/node/Node.scala:42:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: ClusterMembers(_), ResultFromText(_, _), WordsCounterResult(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        message match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ayana/Documents/cluster/src/main/scala/node/cluster/ClusterManager.scala:23:124: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ctx.ask[Receptionist.Command,Receptionist.Listing](ctx.system.receptionist, Receptionist.Find(NodeServiceKey, _)){[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/ayana/Documents/cluster/target/scala-2.13/cluster_2.13-0.1-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/resources/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Boot.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/Boot.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/MainApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	html/HtmlToResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/html/HtmlToResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	node/Node.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/node/Node.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	service/WordCountService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/service/WordCountService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	service/FibonacciService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/service/FibonacciService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	api/Server.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/api/Server.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	api/NodeRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/api/NodeRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	node/cluster/ClusterManager.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/node/cluster/ClusterManager.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	node/cluster/ClusterListener.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ayana/Documents/cluster/src/main/scala/node/cluster/ClusterListener.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

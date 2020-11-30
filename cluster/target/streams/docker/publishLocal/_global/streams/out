@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t akka/cluster:latest .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /home/ayana/Documents/cluster/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  48.92MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/7 : FROM java:8-jre-alpine[0m
+[0m[[0m[0minfo[0m] [0m[0m8-jre-alpine: Pulling from library/java[0m
+[0m[[0m[0minfo[0m] [0m[0m709515475419: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m38a1c0aaa6fd: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mcd134db5e982: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m709515475419: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m38a1c0aaa6fd: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mcd134db5e982: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0mcd134db5e982: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0mcd134db5e982: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mDigest: sha256:6a8cbe4335d1a5711a52912b684e30d6dbfab681a6733440ff7241b05a5deefd[0m
+[0m[[0m[0minfo[0m] [0m[0mStatus: Downloaded newer image for java:8-jre-alpine[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> fdc893b19a14[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/7 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 067e95aafc68[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 067e95aafc68[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 73d2932414f7[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/7 : ADD --chown=daemon:daemon opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 3fd5781247a6[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/7 : EXPOSE 8000[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 0af5093acb7f[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 0af5093acb7f[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 10cb36c0907b[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/7 : USER daemon[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 16d512328580[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 16d512328580[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> fc4d95793173[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/7 : ENTRYPOINT ["/opt/docker/bin/cluster"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 4c59431347d0[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 4c59431347d0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 613546b78c58[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/7 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 38be7ee6b500[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 38be7ee6b500[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 04dde6e40bcb[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 04dde6e40bcb[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged akka/cluster:latest[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image akka/cluster with tags [latest][0m
